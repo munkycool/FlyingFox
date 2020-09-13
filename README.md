@@ -2,7 +2,7 @@
 
 An opinionated set of configurations for firefox.
 
-![FlyinfFox](https://github.com/akshat46/FlyingFox/blob/master/img/demo.gif)
+![FlyinfFox](https://raw.githubusercontent.com/akshat46/FlyingFox/local_configs/img/demo.png)
 
 *^ with [Material Fox](https://github.com/muckSponge/MaterialFox)*
 
