@@ -46,7 +46,7 @@ function Generator() {
     arr.push('#' + convert.hsl.hex(hsl));
     for (let i = 1; i < palette.length; i++) {
       hsl[2] = hsl[2] + palette[i] > 99 ? 100 : hsl[2] + palette[i];
-      hsl[1] = hsl[1] > 49 ? hsl[1] - palette[i] * 1.5 : hsl[1];
+      hsl[1] = hsl[1] > 49 ? hsl[1] - Math.abs(palette[i]) * 1.5 : hsl[1];
       arr.push('#' + convert.hsl.hex(hsl));
     }
     return arr;
