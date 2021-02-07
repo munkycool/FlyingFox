@@ -27,7 +27,7 @@
 
     /* expanded width of the sidebar. 
     used for userChrome-static, and hover */
-    --sidebar-width: 250px;
+    --sidebar-width: 235px;
     /* initial width of the sidebar. 
     advised not to change since tst css relies on this value*/
     --sidebar-collapsed-width: 60px;
